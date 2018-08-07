@@ -94,7 +94,7 @@ def lambda_handler(event, context):
                     'HadoopJarStep': {
                         'Jar': 's3://us-west-2.elasticmapreduce/libs/script-runner/script-runner.jar',
                         'Args': [
-                            '<YOUR S3 CODE SOURCE>/dynamodb_update.sh'
+                            '/home/hadoop/dynamodb_update.py'
                         ]}
                 	}
                 ],
